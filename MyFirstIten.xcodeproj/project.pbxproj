@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		EE4389121C891F45004B5C92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4389111C891F45004B5C92 /* main.m */; };
 		EE4389151C891F45004B5C92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4389141C891F45004B5C92 /* AppDelegate.m */; };
-		EE4389181C891F45004B5C92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4389171C891F45004B5C92 /* ViewController.m */; };
 		EE43891B1C891F45004B5C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4389191C891F45004B5C92 /* Main.storyboard */; };
 		EE43891D1C891F45004B5C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE43891C1C891F45004B5C92 /* Assets.xcassets */; };
 		EE4389201C891F45004B5C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE43891E1C891F45004B5C92 /* LaunchScreen.storyboard */; };
 		EE43892B1C891F45004B5C92 /* MyFirstItenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43892A1C891F45004B5C92 /* MyFirstItenTests.m */; };
 		EE4389361C891F45004B5C92 /* MyFirstItenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4389351C891F45004B5C92 /* MyFirstItenUITests.m */; };
+		EE4389451C892300004B5C92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4389441C892300004B5C92 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		EE4389111C891F45004B5C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE4389131C891F45004B5C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE4389141C891F45004B5C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE4389161C891F45004B5C92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE4389171C891F45004B5C92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE43891A1C891F45004B5C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE43891C1C891F45004B5C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE43891F1C891F45004B5C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		EE4389311C891F45004B5C92 /* MyFirstItenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstItenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4389351C891F45004B5C92 /* MyFirstItenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstItenUITests.m; sourceTree = "<group>"; };
 		EE4389371C891F45004B5C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4389431C892300004B5C92 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4389441C892300004B5C92 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,8 @@
 			children = (
 				EE4389131C891F45004B5C92 /* AppDelegate.h */,
 				EE4389141C891F45004B5C92 /* AppDelegate.m */,
-				EE4389161C891F45004B5C92 /* ViewController.h */,
-				EE4389171C891F45004B5C92 /* ViewController.m */,
-				EE4389191C891F45004B5C92 /* Main.storyboard */,
-				EE43891C1C891F45004B5C92 /* Assets.xcassets */,
-				EE43891E1C891F45004B5C92 /* LaunchScreen.storyboard */,
-				EE4389211C891F45004B5C92 /* Info.plist */,
+				EE4389431C892300004B5C92 /* ViewController.h */,
+				EE4389441C892300004B5C92 /* ViewController.m */,
 				EE4389101C891F45004B5C92 /* Supporting Files */,
 			);
 			path = MyFirstIten;
@@ -118,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				EE4389111C891F45004B5C92 /* main.m */,
+				EE4389191C891F45004B5C92 /* Main.storyboard */,
+				EE43891E1C891F45004B5C92 /* LaunchScreen.storyboard */,
+				EE43891C1C891F45004B5C92 /* Assets.xcassets */,
+				EE4389211C891F45004B5C92 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE4389181C891F45004B5C92 /* ViewController.m in Sources */,
+				EE4389451C892300004B5C92 /* ViewController.m in Sources */,
 				EE4389151C891F45004B5C92 /* AppDelegate.m in Sources */,
 				EE4389121C891F45004B5C92 /* main.m in Sources */,
 			);
